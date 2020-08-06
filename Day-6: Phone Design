@@ -1,0 +1,109 @@
+<> HTML </>
+-------------------------------------------------------------
+<html>
+    <title>Demo Mobile </title>
+    <head>
+        <link rel="stylesheet" href="mobile.css">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="mobile-back-frame"></div>
+            <div class="mobile-front-frame"></div>
+            <div class="mobile-body"></div>
+           <div class="mobile-top"></div>
+            <div class="mobile-top-icon"></div>
+            <div class="mobile-bottom-icon1"> </div>
+            <div class="mobile-bottom-icon2"> </div>
+            <div class="mobile-bottom-icon3"> </div>
+            <div class="mobile-back-frame"></div>
+            <div class="mobile-charging-point"></div>
+            <div class="status-bar">
+                <p> 5:29PM</p> 
+                <p>  ... 1.6KB/s 4G  Vo  LTE</p>
+            </div>
+
+            <div class="video-icon">
+                <p id="video-text">video</p>
+            </div>
+            
+            <div class="add-call-icon">
+                 </div>
+
+           <p id="add-call">Add Call</p>
+
+
+            <div class="note-icon1">
+                <p></p>
+            </div>
+            <div class="note-icon">
+          <p id="note-text">Note</p>
+            </div>
+
+            <div class="mute-icon"></div>
+            <div class="mute-icon-cross-line"></div>
+            <p id="mute-text">Mute</p>
+
+            <div class="hold-icon">
+                <p id="hold-text">Hold</p>
+            </div>
+
+
+            <div class="record-icon">
+                <div class="record-icon-line"></div>
+                <p id="record-text">Record</p>
+            </div>
+
+
+             <img src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Fill-Black-Large.png" alt="irfan photo">
+
+                <div class="call">
+                <p> MR ROBOT 0101010101  </p>
+                </div>
+
+            </div>
+    </body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------
+<> CSS DESIGN </>
+----------------------------------------------------------------------------------------------------------------------
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+    .container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+#door{
+    position: absolute;
+    left: 50%;
+    margin-top: 50%;
+    right: -200px;
+    top: -100px;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+
+}
+
+#door-curve{
+    position: absolute;
+    top: 21%;
+    left: 11%;
+    
+    background-color:black;
+    border-radius:50% 50% 19% 80% / 100% 100% 1% 1% ;
+    border-top:  white;
+    border-color:  white;
+    height: 80px;
+    width: 150px;
+   
+
+}
