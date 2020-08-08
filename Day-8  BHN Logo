@@ -1,0 +1,186 @@
+<> HTML CODE </>
+----------------------------------------------------
+<html>
+    <title>BHN LOGO</title>
+    <head>
+        <link rel="stylesheet" href="bhn.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="top-square"></div>
+            <div class="B-text"></div>
+            <div class="H-text"></div>
+            <div class="N-text"></div>
+
+        </div>
+      
+    </body>
+</html>
+
+--------------------------------------------------
+<> CS  CODE </>
+----------------------------------------------------
+body{
+
+    background-color:black;
+     padding: 0;
+   margin: 0;
+
+}
+
+.container{
+    position: relative;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 550px;
+    width: 455px;
+    border: 10px solid white;
+    border-radius: 100px 0px 100px 0px ;
+    //box-shadow: -40px -40px 1px 0px black ;
+   
+}
+
+.top-square{
+    position: absolute;
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    top: 100px;
+    left: 100px;
+    border: 2px solid white;
+   transform: rotate(-45deg) ;
+   border-radius: 10px 10px 10px 10px;
+}
+
+
+.top-square::before{
+     content: '';
+    position: absolute;
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    top: 205px;
+    left: -55px; 
+    border: 2px solid white;
+    border-radius: 10px 0px 10px 0px;
+   transform: rotate(0deg) skewX(-45deg);
+  
+   
+}
+
+.top-square::after{
+     content: '';
+    position: absolute;
+    background-color: transparent;
+    height: 200px;
+    width: 100px;
+    top: 51px;
+    left:-107px;
+    border: 2px solid white;
+   transform: rotate(0deg) skewY(-45deg) ;
+   border-radius: 10px 0px 10px 0px;
+   
+      
+   
+}
+  
+.B-text{
+    position: absolute;
+    background-color: white;
+    height: 180px;
+    width: 50px;
+    top: 158px;
+    left: 128px;
+    transform: rotate(-45deg);
+    border-radius: 0px 0px  0px  10px;
+}
+.B-text::before{
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    height: 25px;
+    width: 118px;
+    top: 0px;
+    left: 0px;
+    border-radius: 0px 0px  30px  0px;
+    border: 35px solid white;
+    
+}
+
+.B-text::after{
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    height: 25px;
+    width: 118px;
+    top: 91px;
+    left: 0px;
+    border-radius: 0px 30px  0px  0px;
+    border: 35px solid white;
+    }
+.H-text{
+    position: absolute;
+    background-color: white;
+    height: 133px;
+    width: 35px;
+    left: 60px;
+    top: 232px;
+    border-radius: 0px 30px 0px 30px ;
+}
+
+.H-text::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 140px;
+    width: 35px;
+    left: 99px;
+    top: 96px;
+    border-radius: 0px 50px 0px 50px ;
+}
+
+.H-text::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 140px;
+    width: 30px;
+    left: 50px;
+    top: 40px;
+    border-radius: 0px 0px 0px 0px ;
+    transform: rotate(-45deg);
+}
+
+.N-text{
+    position: absolute;
+    background-color: white;
+    height: 140px;
+    width: 30px;
+    top: 332.7px;
+    left: 206px;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.N-text::before{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 138px;
+    width: 30px;
+    top: -105px;
+    left: 105.5px;
+    border-radius: 100px 0px 100px 0px;
+}
+
+.N-text::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    height: 130px;
+    width: 30px;
+    top: -48px;
+    left: 54px;
+    border-radius: 0px 50px 0px 49px;
+    transform: rotate(-85deg);
+}
