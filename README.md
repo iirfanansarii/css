@@ -1,2 +1,2 @@
 # Hi there !
-# Here Everday i try to  post one css design 
+# Here Every Week i try to  post one css design 
